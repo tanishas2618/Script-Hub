@@ -1,0 +1,73 @@
+/* 🌙 Dark Theme for Entire Page */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center Content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 🎩 Professional Dark Header */
+header {
+    background: #1a1a1a; /* Dark professional header */
+    color: white; /* Light text */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px; /* Header height */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1); /* Soft white shadow for elegance */
+}
+
+/* 🖼️ Profile Picture Styling */
+.profile-pic {
+    height: 100%; /* Stretches image to fit header height */
+    width: auto; /* Keeps aspect ratio */
+    object-fit: cover; /* Ensures it fills header properly */
+    border-radius: 5px; /* Slight rounding for a professional look */
+}
+
+/* 📌 Hobbies & Education Section */
+.hobbies, .education {
+    background-color: #1e1e1e; /* Dark background for sections */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* 🔲 Hobby Items */
+.hobby-item {
+    display: flex;
+    align-items: center;
+    background: #2a2a2a; /* Dark box for each hobby */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* 🖼️ Hobby Images */
+.hobby-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+/* 📌 Footer */
+footer {
+    text-align: center;
+    background: #181818; /* Dark footer */
+    color: #bbb;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
